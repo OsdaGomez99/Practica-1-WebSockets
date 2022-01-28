@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Multiusuario</title>
+    <script type="text/javascript" src="./message.js"></script>
+    <script type="text/javascript" src="./client.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+
+    <div class="namebox">
+      <h1>Bienvenido(a) a mi chat Multiusuario</h1>
+      <h3>Por favor, ingrese su nombre</h3>
+      <input type="text" id="name-text" disabled="disabled" />
+    </div>
+
+    <div class="container content">
+      <div class="row">
+        
+        <div class="box">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="public-chat">
+            <div class="card">
+              <div class="card-header">Chat Público</div>
+                <div class="card-body height3">
+                  <ul id="chat-list">
+                    <div id="chat-public"></div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          <input type="text" id="public-text" disabled="disabled" placeholder="Escriba aqui su mensaje..."/>
+        </div>
+          
+        <div class="box">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="private-chat">
+            <div class="card">
+              <div class="card-header">Chat Privado</div>
+              <div class="card-body height3">
+                <ul id="chat-list">
+                  <div id="chat-private"></div>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <input type="text" id="private-text" disabled="disabled" placeholder="Escriba aqui su mensaje..." />
+        </div>
+
+        <div class="active">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="user-list">
+            <div class="card">
+              <div class="card-header">Usuarios Activos</div>
+                <div class="card-body height3">
+                  <ul class="chat-list"></ul>
+                  <div id="active-list"></div>
+                </div>
+            </div>
+          </div>
+          <p>Haga click sobre un usuario para empezar un chat privado</p>
+        </div>
+
+    </div>
+  </div>
+
+
+  </body>
+</html>

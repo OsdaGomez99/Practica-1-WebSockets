@@ -1,0 +1,136 @@
+.box {
+    width: 404px;
+    height: 450px;
+    border:1px solid #000000;
+    float: left;
+    margin: 10px 10px 10px 20px;
+    background-color: #f7f7e6;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 12px;
+  }
+
+  #private-chat, #public-chat {
+    width: 400px;
+    height: 380px;
+    border:1px solid #000000;
+    float: left;
+    background-color: #f7f7e6;
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+
+  #public-text, #private-text {
+    width: 395px;
+    margin: 10px 0px 0px 0px;
+  }
+
+.active {
+    width: 280px;
+    height: 450px;
+    border:1px solid #000000;
+    float: left;
+    margin: 10px 10px 10px 20px;
+    background-color: #f7f7e6;
+    overflow: auto;
+    scroll-behavior: smooth;
+    padding: 12px;
+  }
+
+  #user-list {
+    width: 280px;
+    height: 365px;
+    border:1px solid #000000;
+    float: left;
+    background-color: #f7f7e6;
+    overflow: auto;
+    scroll-behavior: smooth;
+  }
+
+  #name-text, .namebox{
+      text-align: center;
+  }
+
+
+  #private-chat.disabled {
+    background-color: #EBEBE4;
+  }
+
+  .content .chat-label {
+    margin: 20px 50px 0 30px;
+    float: left;
+    width: 400px;
+  }
+
+  
+
+body{
+    background:#eee;    
+}
+#chat-list {
+    padding: 0;
+    font-size: .8rem;
+}
+
+#chat-list li {
+    margin-bottom: 10px;
+    overflow: auto;
+    color: #ffffff;
+}
+
+
+#chat-list .chat-message {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background: #5a99ee;
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+#chat-list .chat-message:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    width: 0;
+    height: 0;
+}
+
+
+#chat-list .chat-message p {
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#chat-list .chat-body {
+    margin-left: 20px;
+    float: left;
+    width: 70%;
+}
+
+#chat-list .in .chat-message:before {
+    left: -12px;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #5a99ee;
+}
+
+.card .card-header:first-child {
+    -webkit-border-radius: 0.3rem 0.3rem 0 0;
+    -moz-border-radius: 0.3rem 0.3rem 0 0;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+.card .card-header {
+    background: #17202b;
+    border: 0;
+    font-size: 1rem;
+    padding: .65rem 1rem;
+    position: relative;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.content{
+    margin-top:20px;    
+}
