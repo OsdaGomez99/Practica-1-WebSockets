@@ -15,7 +15,7 @@ Para el servidor de este, se utilizó el framework NodeJS y el modulo de ws pert
 
 Para clonar el repositorio en el editor de texto se utiliza la siguiente dirección URL:
 
-https://github.com/OsdaGomez99/websockets-SD.git
+https://github.com/OsdaGomez99/Practica-1-WebSockets.git
 
 ----------------------------------------------------------------------------------------------------------------------
 
