@@ -26,7 +26,7 @@
   }
 
 .active {
-    width: 280px;
+    width: 315px;
     height: 450px;
     border:1px solid #000000;
     float: left;
@@ -38,7 +38,7 @@
   }
 
   #user-list {
-    width: 280px;
+    width: 310px;
     height: 365px;
     border:1px solid #000000;
     float: left;

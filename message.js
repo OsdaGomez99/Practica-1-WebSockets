@@ -62,8 +62,11 @@ function sendMessage(type, text) {
  * 
  * @param {string} msg - the actual message object.
  */
+
+// Función para escribir un mensaje en el navegador
 function writeMessage(msg) {
   
+  //Cuerpo del mensaje que incluye el tipo de mensaje, el texto y la fecha.
   let text = "", timeStr = new Date(msg.date).toLocaleTimeString(), containerToWrite;
 
   switch(msg.type) {

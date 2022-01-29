@@ -21,11 +21,9 @@ https://github.com/OsdaGomez99/Practica-1-WebSockets.git
 
 Para ejecutar el servidor y el proyecto, se deben realizar los siguientes pasos:
 
---Abrir una ventana de comandos o terminal y navevar hasta el directorio del proyecto.
-Otra alternativa seria, ubicarse en el carpeta del proyecto en el explorador de archivos y colocar en la barra
+--Abrir una ventana de comandos o terminal y navegar hasta el directorio del proyecto.
+Otra alternativa seria, ubicarse en la carpeta del proyecto en el explorador de archivos y colocar en la barra
 de direcciones, el comando "cmd" y automaticamente se redireccionara a una ventana de comandos ubicada en el proyecto
-
---Ejecutar el comando "npm install" para instalar los modulos necesarios de node.js
 
 --Ejecutar el comando "node server" para ejecutar el servidor en el puerto 3000
 
